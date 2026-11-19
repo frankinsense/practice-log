@@ -2,8 +2,8 @@
 Ratings are added when you set the handles below (Codeforces and AtCoder have public APIs).
 Usage:  python tools/update_readme.py"""
 import os, re, json, urllib.request, datetime
-CODEFORCES = ""   # your handle
-ATCODER = ""      # your handle
+CODEFORCES = "frankinsense"   # your handle
+ATCODER = "frankinsense"      # your handle
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXT = {".cpp": "C++", ".cc": "C++", ".c": "C", ".java": "Java", ".py": "Python"}
 rows, files = {}, []
